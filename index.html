@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazar Travel</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="website icon" type="png" href="./logo.png">
+</head>
+<body>
+    <!-- nav-bar -->
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar fixed-top">
+  <div class="container-fluid px-4">
+
+    <!-- Левая часть — логотип -->
+    <div class="d-flex align-items-center">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="./logo.png" alt="Logo" width="70" height="50" class="me-2">
+        <span class="d-none d-lg-inline"><strong><span style="color: orange;">Nazar</span> <em>Travel</em></strong></span>
+      </a>
+    </div>
+
+    <!-- Центр — меню -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav text-center">
+        <li class="nav-item"><a class="nav-link fw-bold" href="#City" data-popup-id="popup-samarkand" data-translate="samarkand">Samarkand</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#service" data-popup-id="popup-service" data-translate="service">Our service</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#Transport" data-popup-id="popup-transport" data-translate="transport">Transport</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#Food" data-popup-id="popup-food" data-translate="foods">Food and drinks</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#Tours" data-popup-id="popup-tours" data-translate="tours">Tours</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#contacts" data-popup-id="popup-contacts" data-translate="contacts">Contacts</a></li>
+        <li class="nav-item"><a class="nav-link fst-italic fw-bold" href="#about" data-popup-id="popup-about" data-translate="about">About us</a></li>
+      </ul>
+    </div>
+
+    <!-- Правая часть — язык и бургер -->
+    <div class="d-flex align-items-center gap-2">
+      <div class="position-relative translate">
+        <img id="languageToggle" src="./png-clipart-computer-icons-quotation-mark-symbol-language-logo-sign.png" alt="Lang" width="30" height="30" style="cursor:pointer;">
+        <div class="translate-list" id="languageList">
+          <ul class="list-unstyled m-0 p-2">
+            <li><a href="#" data-lang="en">English</a></li>
+            <li><a href="#" data-lang="ru">Русский</a></li>
+          </ul>
+        </div>
+      </div>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Всплывающие окна -->
+  <div id="popup-samarkand" class="popup-below-nav">Welcome to Samarkand</div>
+  <div id="popup-service" class="popup-below-nav">
+    <ul class="sevice-ul">
+      <li><a href="#">Post card</a></li>
+      <li><a href="#">Free map</a></li>
+      <li><a href="#">Restaurant info</a></li>
+      <li><a href="#">Travel info</a></li>
+      <li><a href="#">Train ticket</a></li>
+      <li><a href="#">Guide service</a></li>
+      <li><a href="#">Home stay</a></li>
+      <li><a href="#">Mini liberary</a></li>
+      <li><a href="#">Unique souvenir</a></li>
+      <li><a href="#">National costume rent</a></li>
+      <li><a href="#">Samarkand footboll uniform</a></li>
+    </ul>
+  </div>
+  <div id="popup-transport" class="popup-below-nav">Transport options: taxi, bus, rental cars</div>
+  <div id="popup-food" class="popup-below-nav">Enjoy delicious Uzbek cuisine</div>
+  <div id="popup-tours" class="popup-below-nav">Explore ancient cities and landscapes</div>
+  <div id="popup-contacts" class="popup-below-nav">Contact us via email or phone</div>
+  <div id="popup-about" class="popup-below-nav">We are a team of travel professionals</div>
+</nav>
+  <header>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-2 border border-2">
+          <div class="colsm-right">
+            <div>
+              <p>1</p>
+            </div>  
+          </div>
+          <div class="colsm-right">
+            <div>
+              <p>2</p>
+            </div>  
+          </div>
+          <div class="colsm-right">
+            <div>
+              <p>3</p>
+            </div>  
+          </div>
+        </div>
+        <div class="col-sm-7 border border-2" style="text-align: left;">
+          <h2>
+            History and Heritage
+          </h2>
+          <p>
+            The country's history is a kaleidoscope of empires and conquerors, including Alexander the Great and Genghis Khan. Yet, it's the Timurid era that truly defined Uzbekistan, leaving an indelible architectural legacy that draws tourists from around the globe.
+          </p>
+          <h2>Natural Beauty</h2>
+          <p>Beyond its cities lies the Kyzylkum Desert, one of the world's largest sand deserts, offering a stark yet mesmerizing landscape. The Nuratau-Kyzylkum Biosphere Reserve is another hidden gem, home to rare and endangered species.</p>
+          <p>Nowadays Uzbekistan is secular state, renewed, young and perspective. It’s growing stronger in economy, culture and politic spheres with every day. Foreign investors such as China, Turkey, South Korea, Russia, France, Switzerland, Japan, Germany, USA gladly cooperates with Uzbekistan, so the amount of joint ventures multiplies every year. But Uzbekistan also has its own large enterprises: Uzbek Metal, Navoi Nitrogen, Shurtangas, Almalikskiy GMK, Bukhara Oil Refinery, Fergana Oil Refinery, Tashkent Wine and others.</p>
+        </div>
+        <div class="col-sm-3 border border-2" style="margin-left: px;">
+          <div class="colsm-right">
+            <div>
+              <p>Old hammam</p>
+              <p>price:20$</p>
+            </div>  
+          </div>
+          <div class="colsm-right">
+            <div>
+              <p>Cooking class</p>
+              <p>from:15$</p>
+            </div> 
+          </div>
+          <div class="colsm-right">
+            <div>
+              <p>Tajikistan tour</p>
+            </div> 
+          </div>
+          <div class="colsm-right">
+            <div>
+              <p>standart walking</p>
+            </div>
+          </div>
+          <div class="colsm-right"></div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>  
+</body>
+</html>
