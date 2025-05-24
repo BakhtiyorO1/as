@@ -6,9 +6,9 @@ const translations = {
     service: "Service",
     contacts: "Contacts",
     about: "About us",
-    samarkand: "Uzbekistan - Samarkand",
-    tashkent: "Uzbekistan - Tashkent",
-    bukhara: "Uzbekistan - Bukhara",
+    samarkand: "Samarkand",
+    tashkent: "Tashkent",
+    bukhara: "Bukhara",
     tours_title: "Tours to Uzbekistan",
     search: "Search for a travel",
     foods: "Foods",
@@ -16,7 +16,8 @@ const translations = {
     plov: "Plov",
     samsa: "Samsa",
     lagman: "Lagman",
-    shashlik: "Shashlik"
+    shashlik: "Shashlik",
+    transport: "Transport"
   },
   ru: {
     welcome: "Добро пожаловать в Nazar Travel",
@@ -25,9 +26,9 @@ const translations = {
     service: "Услуги",
     contacts: "Контакты",
     about: "О нас",
-    samarkand: "Узбекистан — Самарканд",
-    tashkent: "Узбекистан — Ташкент",
-    bukhara: "Узбекистан — Бухара",
+    samarkand: "Самарканд",
+    tashkent: "Ташкент",
+    bukhara: "Бухара",
     tours_title: "Туры в Узбекистан",
     search: "Поиск путешествия",
     foods: "Блюда",
@@ -35,7 +36,8 @@ const translations = {
     plov: "Плов",
     samsa: "Самса",
     lagman: "Лагман",
-    shashlik: "Шашлык"
+    shashlik: "Шашлык",
+    transport: "Транспорт"
   }
 };
 
